@@ -53,6 +53,12 @@ tr:nth-child(even) {
 			<td>투투..</td>
 			<td>68</td>
 			<td>N</td>
+			<td><a href="download.do?filename=${board.filename }">${board.filename }</a></td>
+			<td>
+				<C:if test="${not empty board.filename }">
+					<img src="../images/${board.filename }" style="width: 50px">
+				</C:if>
+			</td>
 		</tr>
 	</table>
 </body>

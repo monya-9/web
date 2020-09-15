@@ -23,7 +23,7 @@
 	</tr>
 	<tr>
 		<td>지역</td>
-		<td>$dept.location_id</td>
+		<td>${ dept.location_id}</td>
 	</tr>
 </table>
 </body>
